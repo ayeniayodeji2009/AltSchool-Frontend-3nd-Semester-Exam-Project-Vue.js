@@ -1,9 +1,16 @@
+//import Vue from 'vue'
 import { createApp } from 'vue'
 import App from './App.vue'
+import store from './store'
 //import './assets/main.css'
 import { createRouter, createWebHistory } from 'vue-router'
+//import VueCompositionApi from '@vue/composition-api';
 import CounterApp from '@/views/CounterApp.vue'
 import Page_404 from '@/views/Page_404.vue'
+
+
+
+
 
 
 const router = createRouter({
@@ -23,5 +30,5 @@ const router = createRouter({
 })
 
 
-
-createApp(App).use(router).mount('#app')
+//.use(VueCompositionApi)
+createApp(App).use(store).use(router).mount('#app')
