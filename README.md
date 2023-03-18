@@ -7,4 +7,4 @@
 
 
 
-Hosted link -> https://heartfelt-cheesecake-f03764.netlify.app/
+Hosted link -> https://alt-school-frontend-3nd-semester-exam-project-vue-js.vercel.app/
