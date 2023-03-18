@@ -3,3 +3,8 @@
 >vuex for state management {Done}
 >functionality in a page with route - ‘/counter’ {Done}
 >other route redirect the user to a 404 page handled by wildcard route {Done}
+
+
+
+
+Hosted link -> https://alt-school-frontend-3nd-semester-exam-project-vue-js.vercel.app/
