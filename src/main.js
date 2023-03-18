@@ -9,7 +9,8 @@ import CounterApp from '@/views/CounterApp.vue'
 import Page_404 from '@/views/Page_404.vue'
 
 
-
+//    /:catchAll(.*)
+//      /:pathMatch(.*)*
 
 
 
@@ -17,12 +18,12 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-        path: '/counter',
+        path: '/',
         name: 'CounterApp',
         component: CounterApp,
         },
         {
-        path: '/:pathMatch(.*)*',
+        path: '/:catchAll(.*)',
         name: 'Page_404',
         component: Page_404,
         }

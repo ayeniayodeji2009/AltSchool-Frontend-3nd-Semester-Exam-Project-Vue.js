@@ -2,7 +2,7 @@
     <div>
         <div id = "navigation">
         <!-- <RouterLink to="/404_page">404 page</RouterLink> -->
-        <RouterLink to="/counter">Home</RouterLink>
+        <RouterLink to="/">Home</RouterLink>
         </div>
 
         <!-- <h1>Home</h1>
